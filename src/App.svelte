@@ -103,7 +103,7 @@ on:click={()=>
 			<h1> Congraduations! you now are the proud owner of {domainBox}</h1>
 			<h3> Click Copy button to add your website link to your clipboard </h3>
 				 <input value={domainBox}> <button on:click={()=>{
-navigator.clipboard.writeText({domainBox})
+navigator.clipboard.writeText(domainBox)
 
 }}><img alt="copy text icon"  height="30" src="https://www.svgrepo.com/show/3110/copy.svg"/></button>
  				</div>
